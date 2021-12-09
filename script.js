@@ -22,3 +22,17 @@
 
     * To view the 4th section please go to index2.html
 */
+
+/*
+    * External Javascript [6th]
+
+    scripts can also be placed in external files.
+*/
+
+// External file: script.js
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Paragraph changed";
+}
+
+// To view next, go to index4.html
