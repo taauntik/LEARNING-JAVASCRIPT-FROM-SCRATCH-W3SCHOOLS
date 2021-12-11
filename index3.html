@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Demo Javascript in Body</h2>
+    <p id="demo">A paragraph</p>
+
+    <script>
+
+      /*
+         * Javascript in <body> [5th]
+            In this example, a Javascript [function] is placed in the <body>
+            section of an HTML page.
+
+            The function is invoked (called) when a button is clicked:
+      */
+
+      // Example:
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Paragraph changed.";
+      }
+    </script>
+
+    <!--
+        NOTE: Placing scripts at the bottom of the <body> element
+        improves the display speed, because interpretation slows down
+        the display.
+    -->
+
+    <!-- To view 6th section please go to script.js -->
+  </body>
+</html>
